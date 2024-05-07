@@ -1,0 +1,56 @@
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.service-item {
+    border: 1px solid pink;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+.service-item h3 {
+    color: palevioletred;
+}
+
+.return{
+    margin-top: 10px;
+   }
+
+  .return a{
+    text-decoration: none;
+    color: palevioletred;
+    padding-left: 20px;
+  }
+
+  .return a:hover{
+    color: pink;
+  }
+
+/* reponsive */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container{
+         display: grid;
+         grid-template-columns: auto auto;
+    }
+}
+
+/* Dành cho điện thoại */
+@media screen and (max-width: 767px){
+    .container{
+        display: grid;
+        grid-template-columns: auto ;
+   }
+}
+    

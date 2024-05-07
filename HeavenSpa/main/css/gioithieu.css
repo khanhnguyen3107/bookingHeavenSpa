@@ -1,0 +1,97 @@
+.content-product{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-left: 20px;
+   
+}
+
+.content-product-nav1{
+    margin-left: 50px;
+   
+}
+.anhgt1{
+    width: 100px;
+    height: 100px;
+}
+.anhgt2{
+
+    width: 100px;
+    height: 100px;
+}
+.content-product-nav2{
+    margin-left: 50px;
+}
+.sp{
+    width: 200px;
+    height: 200px;
+}
+
+.return{
+    margin-top: 20px;
+   }
+
+  .return a{
+    text-decoration: none;
+    color: palevioletred;
+    padding-left: 20px;
+  }
+
+  .return a:hover{
+    color: pink;
+  }
+
+/* reponsive */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .content-product{
+        text-align: center;
+        display: grid;
+        grid-template-areas: 
+        "item1 item1 item1 "
+        "item2 item2 item2"
+    }
+
+    .content-product-nav1{
+        margin-top: 20px;
+        grid-area: item2;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-product-nav2{
+        grid-area: item1;
+        margin-right: 10%;
+    }
+
+    .infor{
+        padding-top: 30%;
+    }
+}
+
+
+
+/* Dành cho điện thoại */
+@media screen and (max-width: 767px){
+
+    .content-product{
+        text-align: center;
+        display: grid;
+        grid-template-areas: 
+        "item1 item1 item1 "
+        "item2 item2 item2"
+    }
+
+    .content-product-nav1{
+        margin-top: 20px;
+        grid-area: item2;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns:1fr;
+    }
+
+    .content-product-nav2{
+        grid-area: item1;
+        margin-right: 10%;
+    }
+
+}

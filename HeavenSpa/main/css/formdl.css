@@ -1,0 +1,98 @@
+.content-item{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+
+.form-content{
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.form{
+  padding-right: 80px;
+  padding-left: 20px;
+}
+
+.formdl {
+    max-width: 600px;
+   
+    padding: 50px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Thiết lập kiểu cho tiêu đề */
+  .formdl h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Thiết lập kiểu cho các input */
+  .formdl input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Kiểu cho nút submit */
+  .formdl input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Kiểu hover cho nút submit */
+  .formdl input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Kiểu cho input email */
+  .formdl input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Tùy chỉnh màu cho placeholder */
+  .formdl input::placeholder {
+    color: #999;
+  }
+  
+  /* Tùy chỉnh màu khi input được focus */
+  .formdl input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+  }
+
+   .return{
+    margin-top: 20px;
+   }
+
+  .return a{
+    text-decoration: none;
+    color: palevioletred;
+    padding-left: 20px;
+  }
+
+  .return a:hover{
+    color: pink;
+  }
+
+    /* reponsive */
+@media screen and (max-width: 1023px) {
+  .content-item {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,20 @@
+/*** footer start ***/
+.footer {
+    background: var(--bs-dark);
+    margin-top: 0;
+}
+
+.footer .footer-item a,
+.footer .footer-item p {
+    color: var(--bs-white);
+    line-height: 40px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.footer .footer-item a:hover {
+    letter-spacing: 2px;
+    color: var(--bs-primary) !important;
+}
+
+/*** Footer End ***/

@@ -1,0 +1,39 @@
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Hai cột bằng nhau */
+    gap: 15px; /* Khoảng cách giữa các cột */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Kiểu dáng cho mỗi hàng trong form */
+.form-row {
+    margin-bottom: 15px;
+}
+
+/* Kiểu dáng cho nhãn (label) của input và textarea */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Kiểu dáng cho input và textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Kiểu dáng cho nút gửi (submit button) */
+input[type="submit"] {
+    grid-column: span 2; /* Được chia sẻ trên cả hai cột */
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+#fileList{
+    position: absolute;
+    left: 73%;
+}

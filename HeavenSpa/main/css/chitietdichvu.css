@@ -1,0 +1,144 @@
+
+.container_detail{
+    max-width: 97%;
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item2 item2 item2"
+}
+
+.container_col_1{
+    align-items: center;
+    grid-area: item1;
+}
+
+
+.container_col_1 h4{
+    color: pink;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.container_col_2{
+    grid-area: item2;
+}
+
+.container_col_2 .title h5{
+    color: pink;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu_item {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.menu_item a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu_item a:hover {
+    color: pink;
+}
+
+  
+.menu_item {
+      text-align: left;
+  }
+   
+  
+.item-list-detail {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+  nav .item-list-detail li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 15px;
+      font-size: 20px;
+      height: 100%;
+  }
+  
+  nav .item-list-detail li a:hover {
+      background-color: white;
+      color: pink;
+      transition: background-color 0.3s, color 0.3s;
+  }
+  
+
+#toggle_detail {
+    display: none;
+    background-color: palevioletred;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.return{
+    margin-top: 20px;
+   }
+
+  .return a{
+    text-decoration: none;
+    color: palevioletred;
+    padding-left: 20px;
+  }
+
+  .return a:hover{
+    color: pink;
+  }
+
+
+ /* reponsive */
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .item-list-detail{
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle_detail {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+
+}
+
+  /* Dành cho điện thoại */
+  @media screen and (max-width: 767px) {
+      
+    .item-list-detail {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle_detail {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .container_col_1 h4{
+        display: none;
+    }
+    .container_detail{
+        display: grid;
+        grid-template-columns: 1rf 5fr;
+    }
+    .container_col_1{
+        margin-top: 50%;
+    }
+
+    .container_col_2 img{
+        width: 80%;
+        height: 90%;
+    }
+
+  }

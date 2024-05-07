@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../doantt"
+		},
+		{
+			"path": "../../../../OSS_Group4_GameStore-main"
+		},
+		{
+			"path": "../../../../../../WEB/ZingMp3"
+		},
+		{
+			"path": "../../../../HeavenSpa"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "D:/phpmain/sqlform/CRUD_app"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ZingMp3"
+	}
+}

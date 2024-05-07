@@ -1,0 +1,51 @@
+.modalBoxs{
+    position: fixed;
+    top:0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.6);
+}
+.inners{
+    width: 800px;
+    position: relative;
+    top: 30%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #e26e70;
+    color: white;
+}
+.headers p{
+    margin-left: 65px;
+    font-size: 20px;
+}
+.bodys{
+    padding: 15px;
+}
+.bodys h2{
+    color: #e26e70;
+    margin-bottom: 10px;
+}
+.footers{
+    padding: 15px;
+    text-align: right;
+}
+.footers button{
+    padding: 10px 20px;
+    color: white;
+    background: #e26e70;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}

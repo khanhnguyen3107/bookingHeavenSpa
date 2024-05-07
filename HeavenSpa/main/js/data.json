@@ -1,0 +1,124 @@
+[
+  {
+    "Id": "01",
+    "Name": "Aroma Massage",
+    "Districts": [
+      {
+        "Id": "001",
+        "Name": "60"
+      },
+      {
+        "Id": "002",
+        "Name": "90"
+      },
+      {
+        "Id": "003",
+        "Name": "120"
+      }
+    ]
+  },
+  {
+    "Id": "02",
+    "Name": "Foot Massage",
+    "Districts": [
+      {
+        "Id": "004",
+        "Name": "60"
+      },
+      {
+        "Id": "005",
+        "Name": "90"
+      },
+      {
+        "Id": "006",
+        "Name": "120"
+      }
+    ]
+  },
+  {
+    "Id": "03",
+    "Name": "Herbal Massage",
+    "Districts": [
+      {
+        "Id": "007",
+        "Name": "60"
+      },
+      {
+        "Id": "008",
+        "Name": "90"
+      },
+      {
+        "Id": "009",
+        "Name": "120"
+      }
+    ]
+  },
+  {
+    "Id": "04",
+    "Name": "Hot Stone Massage",
+    "Districts": [
+      {
+        "Id": "010",
+        "Name": "120"
+      },
+      {
+        "Id": "011",
+        "Name": "90"
+      }
+    ]
+  },
+  {
+    "Id": "05",
+    "Name": "Kid Massage",
+    "Districts": [
+      {
+        "Id": "012",
+        "Name": "60"
+      },
+      {
+        "Id": "013",
+        "Name": "90"
+      },
+      {
+        "Id": "014",
+        "Name": "120"
+      }
+    ]
+  },
+  {
+    "Id": "06",
+    "Name": "Pregnant Massage",
+    "Districts": [
+      {
+        "Id": "015",
+        "Name": "60"
+      },
+      {
+        "Id": "016",
+        "Name": "90"
+      },
+      {
+        "Id": "017",
+        "Name": "120"
+      }
+    ]
+  },
+  {
+    "Id": "07",
+    "Name": "Sunburn Care Massage",
+    "Districts": [
+      {
+        "Id": "018",
+        "Name": "60"
+      },
+      {
+        "Id": "019",
+        "Name": "90"
+      },
+      {
+        "Id": "020",
+        "Name": "120"
+      }
+    ]
+  }
+]
